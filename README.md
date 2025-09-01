@@ -1,4 +1,4 @@
-# MANIPULACIÓN DEL DOM (Document Object Model)
+# MANIPULACIÓN DEL DOM (Document Object Model) - EVENTOS Y MANEJADORES:
 
 Este repositorio es una práctica básica sobre **JavaScript**, enfocada en:
 
@@ -11,33 +11,18 @@ El **DOM (Document Object Model)** es una interfaz de programación que represen
 Cada etiqueta (`<div>`, `<p>`, `<h1>`, etc.) se convierte en un nodo que puede ser manipulado con JavaScript. Es por eso que podemos **seleccionar y modificar elementos**.
 
 ## Métodos de selección:
-- **<span style="color:red">getElementById("id")</span>** ➡️ Selecciona un elemento por su ID.
+- **getElementById("id")** ➡️ Selecciona un elemento por su ID.
 - **getElementsByClassName("clase")** ➡️ Selecciona varios elementos que comparten una clase.
 - **getElementsByTagName("etiqueta")** ➡️ Selecciona todos los elementos de una etiqueta (p, div, etc.).
 - **querySelector("selector")** ➡️ Selecciona el primer elemento que coincida con un selector CSS.
 - **querySelectorAll("selector")** ➡️ Selecciona todos los elementos que coincidan.
 
-## Modificaciones comunes:
-- **.textContent** ➡️ Cambiar texto.
-- **.innerHTML** ➡️ Cambiar el contenido con HTML.
-- **.style.propiedad** ➡️ Cambiar estilos (ej: color, fontSize).
-- **.setAttribute("atributo", "valor")** ➡️ Cambiar o agregar atributos (ej: src, href, etc.).
-- **.classList.add("clase"), .remove(), .toggle()** ➡️ Manejo de clases CSS.
+## Eventos y Manejadores:
+Los eventos son acciones o sucesos, que ocurren en un elemento web, a través de métodos como `addEventListener()`.
+Un manejador de eventos es la función que se ejecuta para responder a ese suceso.
 
-### <span style="color:orange">Ejemplos:</span> 
+### 🟤 **Onclick:**
+Fácil de usar en ejemplos simples.
 
-```javascript
-// Seleccionar por ID
-let titulo = document.getElementById("titulo");
-
-// Seleccionar por clase
-let items = document.getElementsByClassName("item");
-
-// Con querySelector
-let parrafo = document.querySelector(".texto");
-
-// Cambiar contenido
-titulo.textContent = "Nuevo título";
-
-// Modificar estilo
-parrafo.style.color = "blue";
+### 🟤**addEventListener:** 
+Permite múltiples eventos, separación de lógica y presentación.
