@@ -20,8 +20,8 @@ Cada etiqueta (`<div>`, `<p>`, `<h1>`, etc.) se convierte en un nodo que puede s
 Los eventos son acciones o sucesos, que ocurren en un elemento web, a través de métodos como `addEventListener()`.
 Un manejador de eventos es la función que se ejecuta para responder a ese suceso.
 
-### - **Onclick:** 
+### - **Onclick** 
 Fácil de usar en ejemplos simples.
 
-### - ** addEventListener:** 
+### - **addEventListener** 
 Permite múltiples eventos, separación de lógica y presentación.
