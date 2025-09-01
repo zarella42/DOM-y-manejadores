@@ -23,5 +23,5 @@ Un manejador de eventos es la función que se ejecuta para responder a ese suces
 ### - **Onclick:** 
 Fácil de usar en ejemplos simples.
 
-### - **addEventListener:** 
+### - ** addEventListener:** 
 Permite múltiples eventos, separación de lógica y presentación.
